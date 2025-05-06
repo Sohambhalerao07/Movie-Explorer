@@ -65,7 +65,7 @@ function MovieDetails() {
             <div className="flex items-center gap-4 mt-4">
               <p className="text-lg">⭐ {movie.imdbRating} IMDb</p>
               <button
-                className={`px-4 py-2 border rounded ${isFavorite ? 'bg-blue-600 text-white' : 'text-blue-600 border-blue-600'} transition-colors duration-300`}
+                className={`px-4 py-2 border rounded ${isFavorite ? 'bg-blue-200 text-white' : 'text-blue-400 border-blue-600'} transition-colors duration-300`}
                 onClick={toggleFavorite}
               >
                 {isFavorite ? '★ Added to Favorites' : '♡ Add to Favorites'}
